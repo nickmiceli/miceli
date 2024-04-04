@@ -1,14 +1,34 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" class="h-100">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>for sierra <3</title>
+  <script src="index.js"></script>
 </head>
-<body>
+<body class="d-flex h-100 text-center">
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="mb-auto">
+      <h3 class="float-md-start mb-0"></h3>
+    </header>
+    <main class="px-3 cover-container">
+      <h1>Hi Stinky!</h1>
+      <p class="lead">This website is a magic portal that will redirect you to the surprise for a few of the days. Just enter the password that I gave you and you will be taken there!</p>
+        <form class="row g-2" onsubmit="return redirectLink()" id="passwordForm">
+        <div class="col-9 form-floating">
+          <input type="text" class="form-control" id="floatingPassword" placeholder="Password" name="query">
+          <label for="floatingPassword" id="labelPass">Password</label>
+        </div>   <div class="col-3 mb-auto mt-auto">
+          <button type="submit" class="btn btn-dark">Take Me!</button>
+        </div> </form>
+        <h5 id="wrongText"></h5>
+    </main>
+    <footer class="mt-auto text-white-50 hey">
+      <p></p>
+    </footer>
+  </div>
 
-  <h1>Yo</h1>
-
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem tellus, interdum nec libero a, facilisis malesuada sapien. Cras sit amet iaculis nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi lobortis hendrerit tellus, in tempor velit facilisis quis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin sagittis consequat condimentum. Pellentesque habitant morbi tristique senect</p>
-  
 </body>
 </html>
